@@ -1,0 +1,16 @@
+{
+  "name": "nodejsdademo",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "nodejsdademo": "file:",
+    "nodemon": "^3.1.7",
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "osType": "Windows_NT",
+  "Platform": "win32",
+  "Ram": 7968243712,
+  "usedRam": 7209435136,
+  "cpu": [
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 15500,
+        "nice": 0,
+        "sys": 19562,
+        "idle": 365578,
+        "irq": 2406
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 9109,
+        "nice": 0,
+        "sys": 7953,
+        "idle": 383312,
+        "irq": 171
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 15312,
+        "nice": 0,
+        "sys": 15109,
+        "idle": 369937,
+        "irq": 125
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 14687,
+        "nice": 0,
+        "sys": 9750,
+        "idle": 375937,
+        "irq": 140
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 13531,
+        "nice": 0,
+        "sys": 12937,
+        "idle": 373906,
+        "irq": 125
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 9203,
+        "nice": 0,
+        "sys": 8406,
+        "idle": 382765,
+        "irq": 156
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 11328,
+        "nice": 0,
+        "sys": 11515,
+        "idle": 377531,
+        "irq": 78
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 10828,
+        "nice": 0,
+        "sys": 6187,
+        "idle": 383359,
+        "irq": 46
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 15750,
+        "nice": 0,
+        "sys": 11015,
+        "idle": 373609,
+        "irq": 109
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 7562,
+        "nice": 0,
+        "sys": 7984,
+        "idle": 384796,
+        "irq": 140
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 14921,
+        "nice": 0,
+        "sys": 11812,
+        "idle": 373625,
+        "irq": 78
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 8312,
+        "nice": 0,
+        "sys": 7546,
+        "idle": 384500,
+        "irq": 78
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 17187,
+        "nice": 0,
+        "sys": 14406,
+        "idle": 368765,
+        "irq": 250
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 9609,
+        "nice": 0,
+        "sys": 6109,
+        "idle": 384640,
+        "irq": 187
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 11546,
+        "nice": 0,
+        "sys": 8312,
+        "idle": 380500,
+        "irq": 140
+      }
+    },
+    {
+      "model": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+      "speed": 2895,
+      "times": {
+        "user": 8859,
+        "nice": 0,
+        "sys": 5671,
+        "idle": 385828,
+        "irq": 78
+      }
+    }
+  ]
+}

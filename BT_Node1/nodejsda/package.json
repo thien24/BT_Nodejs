@@ -1,0 +1,16 @@
+{
+  "name": "demovuivuiu",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "author": "vanthiendev",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "demovuivuiu": "file:",
+    "nodemon": "^3.1.4"
+  }
+}
