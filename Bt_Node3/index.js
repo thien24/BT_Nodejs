@@ -4,11 +4,19 @@ import userRouter from "./routes/user.mjs";
 import { connectDB } from "./config/connectDB.mjs";
 import bodyParser from "body-parser";
 import methodOverride from "method-override";
-
-
+import apiuserRouter from "./routes/api.js";
+import flutteruserRouter from "./routes/flutter.js";
+import demoRouter from "./routes/demo.js";
+import session from 'express-session';
 connectDB();
 const app = express();
 const port = 3000;
+
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+}))
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -28,9 +36,16 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 app.use(express.static("public"));
 
+
 app.use("/", rootRouter);
 app.use("/users", userRouter);
+app.use("/api/v1", apiuserRouter);
+app.use("/api/v1", flutteruserRouter);
+app.use("/api/demo", demoRouter);
+
+
+
 
 app.listen(port, () => {
-  console.log("Server stated!!!");
+  console.log("Server stated on http://localhost:%d", port);
 });

@@ -1,4 +1,4 @@
-const Booking = require('../models/booking');
+const Booking = require('../controllers/bookingController.js');
 
 exports.getAllBookings = async (req, res) => {
     const bookings = await Booking.find().sort({ date: 1, time: 1 });
