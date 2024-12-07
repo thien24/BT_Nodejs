@@ -1,0 +1,31 @@
+Post: http://localhost:3000/auth/register raw({
+  "username": "vanthien",
+  "password": "123456"
+})
+
+http://localhost:3000/auth/login raw({
+  "username": "vanthien",
+  "password": "123456",
+  sẽ trả về token
+}
+)
+
+GET: http://localhost:3000/services
+
+tạo đặt chỗ: POST: http://localhost:3000/reservations raw({
+  "service_id": lấy id lúc nãy GET ra được,
+  "date": "2024-12-10",
+  "time": "18:00",
+  "number_of_people": 2
+}
+phần header Authorization: Bearer <JWT_TOKEN> (thay <JWT_TOKEN> bằng token từ bước đăng nhập).
+)
+
+Lấy danh sách đặt chỗ {
+    GET: http://localhost:3000/reservations
+    Headers:
+Authorization: Bearer <JWT_TOKEN> (thay <JWT_TOKEN> bằng token từ bước đăng nhập)
+}
+
+Xóa đặt chỗ 
+http://localhost:3000/id (thay :id bằng _id của đặt chỗ cần xóa).
