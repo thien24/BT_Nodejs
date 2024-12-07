@@ -5,8 +5,7 @@ import { connectDB } from "./config/connectDB.mjs";
 import bodyParser from "body-parser";
 import methodOverride from "method-override";
 import apiuserRouter from "./routes/api.js";
-import flutteruserRouter from "./routes/flutter.js";
-import demoRouter from "./routes/demo.js";
+
 import session from 'express-session';
 connectDB();
 const app = express();
@@ -40,8 +39,7 @@ app.use(express.static("public"));
 app.use("/", rootRouter);
 app.use("/users", userRouter);
 app.use("/api/v1", apiuserRouter);
-app.use("/api/v1", flutteruserRouter);
-app.use("/api/demo", demoRouter);
+
 
 
 
