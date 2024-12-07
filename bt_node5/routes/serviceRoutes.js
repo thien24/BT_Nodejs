@@ -1,8 +1,7 @@
 import express from 'express';
-import { getServices } from '../controllers/serviceController.mjs';
-
+import serviceController from '../controllers/serviceController.mjs';
 const router = express.Router();
 
-router.get('/', getServices);
+router.get('/', serviceController.getServices);
 
-export default router; // Xuất router
+export default router; 
