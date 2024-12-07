@@ -1,11 +1,11 @@
 import express from 'express';
-import { createReservation, getUserReservations, deleteReservation } from '../controllers/reservationController.mjs';
-import { verifyToken } from '../middleware/authMiddleware.js'; // Đảm bảo middleware cũng là ES Module
+import reservationController from '../controllers/reservationController.mjs';
+import authMiddleware from '../middleware/authMiddleware.js'; 
 
 const router = express.Router();
 
-router.post('/', verifyToken, createReservation);
-router.get('/', verifyToken, getUserReservations);
-router.delete('/:id', verifyToken, deleteReservation);
+router.post('/', authMiddleware.verifyToken, reservationController.createReservation);
+router.get('/', authMiddleware.verifyToken, reservationController.getUserReservations);
+router.delete('/:id', authMiddleware.verifyToken, reservationController.deleteReservation);
 
-export default router; // Xuất router
+export default router; 
